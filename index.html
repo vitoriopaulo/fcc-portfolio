@@ -5,49 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>FreeCodeCamp Web Responsive WebDesign Course Capstone Project - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-      <header>
-        <nav id="navbar">
+    <title>Portfolio - Vitorio Paulo</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="desktop-menu">
+          <li><a href="#welcome-section">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="menu-content">
+          <span class="close" id="close">&times;</span>
           <ul>
             <li><a href="#welcome-section">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-      </header>
-      <section class="home main-section" id="welcome-section">
-        <h1>Welcome to my FreeCodeCamp Web Responsive Course Portfolio!</h1>
-                  </section>
-        <section id="about" class="about main-section">
-          <h1>About</h1>
-          <p>Hi, there!</p>
-            <p>My name is Vitorio Paulo, I'm a Brazilian/American Architect | Planner | Designer | Software Engineer | UI/UX Engineer | AI Expert | Prompt Engineer | Tech Enthusiast | Blogger.</p>
-              <p>Here you'll see the fruits of my labour in this Portofilo Capstone Project of the FreeCodeCamp Responsive WebDesign Course.</p>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="main-section" id="welcome-section">
+      <h1>Welcome to my FreeCodeCamp Web Design Course Portfolio!</h1>
+    </section>
+    <section class="main-section" id="about">
+      <h1>About</h1>
+      <p>Hi, there!</p>
+      <p>My name is Vitorio Paulo, I'm a Brazilian/American Architect | Planner | Designer | Software Engineer | UI/UX Engineer | AI Expert | Prompt Engineer | Tech Enthusiast | Blogger.</p>
+      <p>Here you'll see the fruits of my labour in this Portfolio Capstone Project of the FreeCodeCamp Responsive WebDesign Course.</p>
       <p>This page was made with much love. Hope you enjoy it, as I already did.</p>
-      <p>Sweet!</p>
-      <section id="projects" class="main-section">
-        <h1>Projects</h1>
+      <img src="images/vitorio-paulo-gray.jpeg" alt="Photo of Vitorio Paulo" class="profile-image">
+    </section>
+    <section id="projects" class="main-section">
+      <h1>Projects</h1>
+      <div class="project">
         <h3>Survey Form Project</h3>
-        <img src="https://i.ibb.co/HXtcm9q/web-form-project.jpg" alt="web-form-project" border="0"><a href="https://vitoriopaulo.github.io/web-form-project/" id="project-tile"></a></img>
+        <a href="https://vitoriopaulo.github.io/web-form-project" target="_blank">
+          <div class="circle">
+            <img src="https://i.ibb.co/HXtcm9q/web-form-project.jpg" alt="Survey Form Project">
+          </div>
+        </a>
+      </div>
+      <div class="project">
         <h3>Tribute Page</h3>
-        <img src="https://i.ibb.co/bmv0Z6H/tributepage.jpg" alt="tributepage" border="0"></img><a href="https://vitoriopaulo.github.io/tributepage" target=_blank"></a>
+        <a href="https://vitoriopaulo.github.io/tributepage" target="_blank">
+          <div class="circle">
+            <img src="https://i.ibb.co/bmv0Z6H/tributepage.jpg" alt="Tribute Page">
+          </div>
+        </a>
+      </div>
+      <div class="project">
         <h3>Technical Documentation Page</h3>
-        <img src=""><a href="https://vitoriopaulo.github.io/techdocpage" Target="_blank"></img>
+        <a href="https://vitoriopaulo.github.io/techdocpage" target="_blank">
+          <div class="circle">
+            <img src="images/techdocpage.jpeg" alt="Technical Documentation Page">
+          </div>
+        </a>
+      </div>
+      <div class="project">
         <h3>Landing Product Page</h3>
-        <img class="project-tile" src="https://i.ibb.co/f8BDT2R/chaiseberimbau.jpg"><a href="https://vitoriopaulo.github.io/chaiseberimbau" target="_blank"></a><img>
+        <a href="https://vitoriopaulo.github.io/chaiseberimbau" target="_blank">
+          <div class="circle">
+            <img src="https://i.ibb.co/f8BDT2R/chaiseberimbau.jpg" alt="Landing Product Page">
+          </div>
+        </a>
+      </div>
+      <div class="project">
         <h3>Github Profile</h3>
-    <img src="https://i.ibb.co/p4x7fQg/vitoriopaulo-github.jpg" alt="vitoriopaulo-github" border="0"><a href="https://vitoriopaulo.github.io/fcc-portfolio" id="profile-link" target="_blank"></a></img>
-        </section>
-      <section id="contact" class="main-section">
-        <h1>Contact</h1>
-        <p> Hi! If you want to drop a line, I'd be more than happy to be in touch. Please send me an <a class="email" type="email" name="email" href="mailto:vitoriopaulo.ux@gmail.com" target="_blank"> <strong><big>email</big></strong></a> and let's build together!
-        </section>
-        <footer>
-Made with <i class="fa fa-heart"></i> by Vitorio Paulo for FreeCodeCamp.
-          </footer>
-      </body>
-      </html>
+        <a href="https://www.github.com/vitoriopaulo" target="_blank">
+          <div class="circle">
+            <img src="https://i.ibb.co/p4x7fQg/vitoriopaulo-github.jpg" alt="GitHub Profile">
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="main-section" id="contact">
+      <h1>Contact</h1>
+      <div class="contact-form">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      Made with <i class="fa fa-heart heart"></i> by Vitorio Paulo for FreeCodeCamp.
+    </footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/vitoriopaulo.arch" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/vitoriopaulo.arch" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/vitoriopaulo" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/user/vitoriopaulo" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.github.com/vitoriopaulo" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
